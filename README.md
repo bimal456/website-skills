@@ -1,13 +1,10 @@
 # Website Skills
 
-Read skills/build-brand-casino-site/SKILL.md and follow its linked references. Supply a site-specific brief using references/brief.example.json. Keep the complete skill directory together.
+Two separate skills:
 
-Only the BRAND skill is included: the supplied document contained no second site type.
+* skills/build-brand-casino-site: owned-brand production from supplied BRAND rules.
+* skills/build-affiliate-casino-site: independent reviews and comparisons using proposed affiliate defaults.
 
-Static QA requires Python 3:
+Give your agent the complete relevant skill folder and a site-specific brief. Read SKILL.md and linked references. Run its scripts/qa_static.py with --root DIST --brief BRIEF_JSON. Python 3 is required. Browser, live-hosting and factual checks are separate. Rankings are not guaranteed.
 
-```sh
-python3 skills/build-brand-casino-site/scripts/qa_static.py --root ./dist --brief ./brief.json
-```
-
-Static QA does not certify browser behavior, legal accuracy or Google rankings. Agents need suitable tools to browse, execute scripts and deploy. Keep secrets out of briefs and Git.
+Extract this archive and upload README.md and the skills directory to GitHub; do not upload only the ZIP if agents need raw file access.

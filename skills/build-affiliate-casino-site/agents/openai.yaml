@@ -1,0 +1,4 @@
+interface:
+  display_name: "Build Affiliate Casino Site"
+  short_description: "Build independent casino comparisons with strict QA"
+  default_prompt: "Use $build-affiliate-casino-site to build and QA an independent casino affiliate website from my brief."
